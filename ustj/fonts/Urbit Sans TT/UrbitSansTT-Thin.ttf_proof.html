@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <title>UrbitSansTT-Thin.ttf HTML-Proof</title>
+        <style type="text/css">
+@font-face {
+ font-family: "samplefont";
+ src: url("UrbitSansTT-Thin.ttf") format("truetype");
+}
+html {
+    font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+    font-size: 11pt;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    padding: 1rem;
+    margin: 0;
+}
+
+h1 {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline;
+    vertical-align: top;
+    padding-left: 80px;
+}
+
+h2, h3, h4, p {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #1abee6;
+    text-decoration: none;
+}
+
+hr {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+
+dl {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.box {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid silver;
+    border-radius: 2px;
+}
+.box-header {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-bottom: 1px solid silver;
+}
+.box-body {
+    padding: 0.5rem;
+}
+
+.sample-box {
+    border-color: #8fdeff;
+}
+.sample-header {
+    background-color: #8fdeff;
+    border-color: #8fdeff;
+}
+.sample-body {
+    font-family: samplefont;
+    line-height: normal;
+    word-wrap: break-word;
+}
+
+.sample-box {
+    font-family: samplefont;
+    font-size: 48pt;
+    line-height: normal;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: inline-block;
+    background-color: #d1f3ff;
+
+}
+
+table {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-collapse: separate;
+    border-top: 0;
+    border-bottom: 1px solid white;
+    border-left: 0;
+    border-right: 1px solid white;
+    vertical-align: top;
+    font-weight: normal;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+th {
+    text-align: left;
+    background-color: #d1f3ff;
+}
+
+
+.numeric {
+    text-align: right;
+}
+
+/* Tabs mit radio-Buttons */
+
+.tabbed .tab {
+    float: left;
+}
+
+.tabbed .tab>input[type="radio"] {
+    position: absolute;
+    display: none;
+}
+
+.tabbed .tab>label {
+    display: block;
+    position: relative;
+    margin-right: 1px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: black;
+    background: silver;
+}
+
+.tabbed>.tab>[type="radio"]:hover+label {
+    background: #8fdeff;
+}
+
+.tabbed>.tab>[type="radio"]:checked+label {
+    z-index: 2;
+    background: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: -1px;
+}
+
+.tabbed .tab .content {
+    z-index: 0;
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    opacity: 0;
+    border-top: 1px solid black;
+}
+
+.tabbed>.tab>[type="radio"]:checked~.content {
+    z-index: 1;
+    opacity: 1;
+}
+
+.sampleContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+input {
+    vertical-align: middle;
+}
+
+.input_axis {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.featureCheckContainer {
+    display: grid;
+    grid-template-columns: 2rem auto;
+    border-width: 0;
+}
+
+.featureShowingContainer {
+    flex-grow: 1;
+    font-size: 5rem;
+    word-break: break-all;
+}
+
+.varShowingContainer {
+    font-size: 10rem;
+    word-break: break-all;
+}
+
+        </style>
+    </head>
+    <body>
+<a href="https://www.alphabet-type.com/"><canvas id="logo" width="80" height="80"></canvas></a>
+<script>
+    var c = document.getElementById("logo").getContext("2d");
+    c.translate(0, 80); c.scale(0.08, -0.08);
+    c.beginPath(); c.moveTo(609, 1000); c.lineTo(391, 1000); c.lineTo(181, 463); c.lineTo(398, 463);
+    c.moveTo(181, 463); c.lineTo(0, 0); c.lineTo(217, 0); c.lineTo(319, 260); c.lineTo(261, 260);
+    c.fillStyle = "#00B4FF"; c.fill();
+    c.beginPath(); c.moveTo(602, 463); c.lineTo(398, 463); c.lineTo(319, 260); c.lineTo(681, 260); c.lineTo(783, 0); c.lineTo(1000, 0); c.lineTo(718, 722); c.lineTo(500, 722);
+    c.fillStyle = "#FF0000"; c.fill();
+    c.beginPath(); c.moveTo(261, 260); c.lineTo(319, 260); c.lineTo(398, 463); c.lineTo(181, 463);
+    c.fillStyle = "#000000"; c.fill();
+</script>
+
+<h1>HTML-Proof</h1>
+<h2>File Information</h2>
+<p>File: UrbitSansTT-Thin.ttf
+
+<div class="tabbed">
+    <div class="tab">
+        <input type="radio" name="tabs" id="sample" checked="checked" />
+        <label for="sample">Sample</label>
+        <div class="content">
+            <div class="box">
+                <div class="box-header">9px</div>
+                <div class="box-body sample-body" style="font-size: 9px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">10px</div>
+                <div class="box-body sample-body" style="font-size: 10px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">11px</div>
+                <div class="box-body sample-body" style="font-size: 11px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">12px</div>
+                <div class="box-body sample-body" style="font-size: 12px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">13px</div>
+                <div class="box-body sample-body" style="font-size: 13px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">14px</div>
+                <div class="box-body sample-body" style="font-size: 14px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">15px</div>
+                <div class="box-body sample-body" style="font-size: 15px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">16px</div>
+                <div class="box-body sample-body" style="font-size: 16px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">17px</div>
+                <div class="box-body sample-body" style="font-size: 17px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">18px</div>
+                <div class="box-body sample-body" style="font-size: 18px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">19px</div>
+                <div class="box-body sample-body" style="font-size: 19px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">20px</div>
+                <div class="box-body sample-body" style="font-size: 20px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">24px</div>
+                <div class="box-body sample-body" style="font-size: 24px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">28px</div>
+                <div class="box-body sample-body" style="font-size: 28px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">32px</div>
+                <div class="box-body sample-body" style="font-size: 32px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">48px</div>
+                <div class="box-body sample-body" style="font-size: 48px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">64px</div>
+                <div class="box-body sample-body" style="font-size: 64px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">72px</div>
+                <div class="box-body sample-body" style="font-size: 72px;">
+                    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƏƒƝǍǎǦǧǪǫǺǻǼǽǾǿȘșȚțȲȳȷəɲˆˇ˘˙˚˛˜˝  ̀  ́  ̂  ̃  ̄  ̆  ̇  ̈  ̊  ̋  ̌  ̒  ̣  ̦  ̧  ̨  ̵ΔΩμπẀẁẂẃẄẅẞẠạẸẹẼẽỊịỌọỤụỲỳỸỹ           ​–—―‘’‚“”„†‡•… ‰′″‹›⁄⁰⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉€™⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅟↉←↑→↓↖↗↘↙↤↥↦↧↰↱↲↳∂∏∑−∙√∞∫≈≠≤≥⋮⌘␣◊ﬁﬂ﻿
+                    <hr>
+                    Hamburgefontives AVATo fi fl
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab">
+        <input type="radio" name="tabs" id="metric" />
+        <label for="metric">Vertical Metric</label>
+        <div class="content">
+            <h2>Basic Metric</h2>
+            <table>
+                <tr>
+                    <th>Description</th>
+                    <th>absolut</th>
+                    <th>% font size</th>
+                </tr>
+                <tr>
+                    <th>UPM size</th>
+                    <td class="numeric">1000</td>
+                    <td class="numeric">100</td>
+                </tr>
+                <tr>
+                    <th>Cap-height</th>
+                    <td class="numeric">700</td>
+                    <td class="numeric">70</td>
+                </tr>
+                <tr>
+                    <th>x-height</th>
+                    <td class="numeric">500</td>
+                    <td class="numeric">50</td>
+                </tr>
+            </table>
+            <h2>Linespacing</h2>
+            <table>
+                <tr>
+                    <th>Description</th>
+                    <th>hhea metric</th>
+                    <th>OS/2 Typo metric</th>
+                    <th>OS/2 WIN metric</th>
+                </tr>
+                <tr>
+                    <th>Ascender</th>
+                    <td class="numeric">950</td>
+                    <td class="numeric">950</td>
+                    <td class="numeric">983</td>
+                </tr>
+                <tr>
+                    <th>Descender</th>
+                    <td class="numeric">-250</td>
+                    <td class="numeric">-250</td>
+                    <td class="numeric">283</td>
+                </tr>
+                <tr>
+                    <th>Line Gap</th>
+                    <td class="numeric">0</td>
+                    <td class="numeric">0</td>
+                    <td class="numeric">-</td>
+                </tr>
+                <tr>
+                    <th>Line Height (absolut)</th>
+                    <td class="numeric">1200</td>
+                    <td class="numeric">1200</td>
+                    <td class="numeric">1266</td>
+                </tr>
+                <tr>
+                    <th>Line Height (% font size)</th>
+                    <td class="numeric">120</td>
+                    <td class="numeric">120</td>
+                    <td class="numeric">127</td>
+                </tr>
+            </table>
+            <h2>Sample</h2>
+            <p>All Caps</p>
+            <div class='sample-box' contenteditable="true" spellcheck="false">ÁBCDÈFGÜVWXYZ</div>
+            <p>Lowercase</p>
+            <div class='sample-box' contenteditable="true" spellcheck="false">abdefgpqstwy</div>
+            <p>Numbers</p>
+            <div class='sample-box' contenteditable="true" spellcheck="false">0123456789</div>
+            <p>Mixed</p>
+            <div class='sample-box' contenteditable="true" spellcheck="false">Hamburgefontives 123,456.789</div>
+        </div>
+    </div>
+    <div class="tab">
+        <input type="radio" name="tabs" id="features" />
+        <label for="features">Features</label>
+        <div class="content">
+            <h2>Sample</h2>
+            <div class="sampleContainer">
+                <fieldset class=featureCheckContainer>
+                    <input type="checkbox" id="calt" value="calt">
+                    <label for="calt">[calt] Contextual Alternates</label>
+                    <input type="checkbox" id="case" value="case">
+                    <label for="case">[case] Case-Sensitive Forms</label>
+                    <input type="checkbox" id="ccmp" value="ccmp">
+                    <label for="ccmp">[ccmp] Glyph Composition / Decomposition</label>
+                    <input type="checkbox" id="dnom" value="dnom">
+                    <label for="dnom">[dnom] Denominators</label>
+                    <input type="checkbox" id="frac" value="frac">
+                    <label for="frac">[frac] Fractions</label>
+                    <input type="checkbox" id="jalt" value="jalt">
+                    <label for="jalt">[jalt] Justification Alternates</label>
+                    <input type="checkbox" id="liga" value="liga">
+                    <label for="liga">[liga] Standard Ligatures</label>
+                    <input type="checkbox" id="lnum" value="lnum">
+                    <label for="lnum">[lnum] Lining Figures</label>
+                    <input type="checkbox" id="numr" value="numr">
+                    <label for="numr">[numr] Numerators</label>
+                    <input type="checkbox" id="onum" value="onum">
+                    <label for="onum">[onum] Oldstyle Figures</label>
+                    <input type="checkbox" id="ordn" value="ordn">
+                    <label for="ordn">[ordn] Ordinals</label>
+                    <input type="checkbox" id="salt" value="salt">
+                    <label for="salt">[salt] Stylistic Alternates</label>
+                    <input type="checkbox" id="ss01" value="ss01">
+                    <label for="ss01">[ss01] Stylistic Set 1</label>
+                    <input type="checkbox" id="ss02" value="ss02">
+                    <label for="ss02">[ss02] Stylistic Set 2</label>
+                    <input type="checkbox" id="ss03" value="ss03">
+                    <label for="ss03">[ss03] Stylistic Set 3</label>
+                    <input type="checkbox" id="subs" value="subs">
+                    <label for="subs">[subs] Subscript</label>
+                    <input type="checkbox" id="sups" value="sups">
+                    <label for="sups">[sups] Superscript</label>
+                    <input type="checkbox" id="tnum" value="tnum">
+                    <label for="tnum">[tnum] Tabular Figures</label>
+                </fieldset>
+                <div  id="featureSample" class="featureShowingContainer sample-box" contenteditable="true" spellcheck="false">
+                    Hamburgefontives 123,456.789
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function getFeatureSettings(){
+            var featureOn = []
+            var boxesChecked = document.querySelectorAll(".featureCheckContainer input:checked")
+            for (let boxChecked of boxesChecked){
+                featureOn.push("'" + boxChecked.id + "' on")
+            }
+            return featureOn.join(", ");
+        }
+        function updateFeatureSetting(e) {
+            document.getElementById("featureSample").style.setProperty("font-feature-settings", getFeatureSettings());
+        }
+        var featureChecks = document.querySelectorAll(".featureCheckContainer input")
+        featureChecks.forEach(addEventListener("input", updateFeatureSetting))
+    </script>
+</div>
+
+    </body>
+</html>
